@@ -26,17 +26,31 @@
 // }
 
 // export default App
-import Button from "./Button/Button.jsx";
+// import Button from "./Button/Button.jsx";
 
+// function App(){
+//   return(
+//     <Button/>
+//   )
+// }
+
+// export default App
+
+import Student  from "./Student.jsx"
 function App(){
   return(
-    <Button/>
+    <>
+    
+    <Student Name = "FAVOUR" Age = {20} Student ={false} />
+    <Student Name = "FAVOUR" Age = {20} Student ={true} />
+    
+    </>
+
+
   )
 }
 
 export default App
-
-
 
 
 
