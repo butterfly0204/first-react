@@ -43,7 +43,8 @@ function App(){
     <>
     
     <Student Name = "FAVOUR" Age = {20} Student ={false} />
-    <Student Name = "FAVOUR" Age = {"ji"} Student ={true} />
+    <Student Name = "FAVOUR" Age = {11} Student ={true} />
+    <Student />
     
     </>
 
