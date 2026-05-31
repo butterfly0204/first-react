@@ -38,11 +38,12 @@
 
 import Student  from "./Student.jsx"
 function App(){
-  return(
+    return(
+
     <>
     
     <Student Name = "FAVOUR" Age = {20} Student ={false} />
-    <Student Name = "FAVOUR" Age = {20} Student ={true} />
+    <Student Name = "FAVOUR" Age = {"ji"} Student ={true} />
     
     </>
 
