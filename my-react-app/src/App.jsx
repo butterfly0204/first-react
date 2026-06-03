@@ -8,6 +8,9 @@
 //    <Food/>
 //    <Food/>
 //    <Footer/>
+
+// import List from "./List"
+
     
 //     </>
 //   )
@@ -36,19 +39,29 @@
 
 // export default App
 
-import Student  from "./Student.jsx"
+// import Student  from "./Student.jsx"
+// function App(){
+//     return(
+
+//     <>
+    
+//     <Student Name = "FAVOUR" Age = {20} Student ={false} />
+//     <Student Name = "FAVOUR" Age = {11} Student ={true} />
+//     <Student />
+    
+//     </>
+
+
+//   )
+// }
+
+// export default App
+import Button from "./Button/Button.jsx"
 function App(){
-    return(
-
-    <>
-    
-    <Student Name = "FAVOUR" Age = {20} Student ={false} />
-    <Student Name = "FAVOUR" Age = {11} Student ={true} />
-    <Student />
-    
-    </>
-
-
+  return(
+   <>
+   <Button/>
+   </>
   )
 }
 
