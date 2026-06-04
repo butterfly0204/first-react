@@ -56,16 +56,79 @@
 // }
 
 // export default App
-import Button from "./Button/Button.jsx"
+// import Button from "./Button/Button.jsx"
+// function App(){
+//   return(
+//    <>
+//    <Button/>
+//    </>
+//   )
+// }
+
+// export default App
+
+
+
+
+
+
+
+
+
+
+
+
+// React hook, Use state
+import MyComponent from "./MyComponent"
+
 function App(){
-  return(
-   <>
-   <Button/>
-   </>
-  )
+  return(<>
+  <MyComponent/>
+  </>)
 }
 
 export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
